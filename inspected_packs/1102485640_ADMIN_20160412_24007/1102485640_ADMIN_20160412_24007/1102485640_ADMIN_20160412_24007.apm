@@ -1,0 +1,328 @@
+<ArcPad>
+	<MAP name="1102485640_ADMIN_20160412_24007">
+		<COMMENTS/>
+		<PROPERTIES>
+			<ENVELOPE minx="440239.200255781" miny="131609.093780085" maxx="441564.735691244" maxy="132255.949537997"/>
+			<COORDSYS string="PROJCS[&quot;British_National_Grid&quot;,GEOGCS[&quot;GCS_OSGB_1936&quot;,DATUM[&quot;D_OSGB_1936&quot;,SPHEROID[&quot;Airy_1830&quot;,6377563.396,299.3249646]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;False_Easting&quot;,400000],PARAMETER[&quot;False_Northing&quot;,-100000],PARAMETER[&quot;Central_Meridian&quot;,-2],PARAMETER[&quot;Scale_Factor&quot;,0.9996012717],PARAMETER[&quot;Latitude_Of_Origin&quot;,49],UNIT[&quot;Meter&quot;,1]]"/>
+			<SNAPPING tolerance="5"/>
+		</PROPERTIES>
+		<BOOKMARKS/>
+		<LAYER name="Label" maxscale="1:50000" identify="true" quickcapture="true" quickcapturelabel="Capture Label" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007.axf|1|Label"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="TEXTBOX1" rotationfield="" visible="true" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" vertalignment="bottom"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="IC_POINT" maxscale="1:50000" identify="true" quickcapture="true" quickcapturelabel="Capture IC_POINT" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007.axf|2|IC_POINT"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PARCEL_REF" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" vertalignment="bottom"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="INSPECTOR_POINT" maxscale="1:50000" identify="true" quickcapture="true" quickcapturelabel="Capture INSPECTOR_POINT" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007.axf|3|INSPECTOR_POINT"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="LAYERTYPE" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" vertalignment="bottom"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="INSPECTOR_LINE" maxscale="1:50000" identify="true" quickcapture="true" quickcapturelabel="Capture INSPECTOR_LINE" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007.axf|4|INSPECTOR_LINE"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="LAYERTYPE" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<FIELDHISTORY>
+				<FIELDS>
+					<FIELD name="EFA_FLAG" value="False"/>
+					<FIELD name="ACTIONTYPE" value="9"/>
+					<FIELD name="CAMERA_REF"/>
+					<FIELD name="SMR_GAEC"/>
+					<FIELD name="XCBREACH_DT"/>
+					<FIELD name="LCUSED" value="False"/>
+					<FIELD name="USETYPE" value="BB01"/>
+					<FIELD name="EFA_OVR_LEN"/>
+					<FIELD name="EFA_OVR"/>
+					<FIELD name="GNSSUSED" value="True"/>
+					<FIELD name="BUFFERWIDTH"/>
+					<FIELD name="COMMENT" value=""/>
+					<FIELD name="BOUNDUSED" value="False"/>
+					<FIELD name="APUSED" value="False"/>
+					<FIELD name="EFA_SIDE"/>
+					<FIELD name="MMUSED" value="True"/>
+					<FIELD name="PHOTO"/>
+					<FIELD name="LAYERTYPE" value="1"/>
+					<FIELD name="RSUSED" value="False"/>
+					<FIELD name="DATE" value="2016-06-08 10:31:57"/>
+				</FIELDS>
+			</FIELDHISTORY>
+			<SNAPPING vertex="false" edge="false" end="false"/>
+		</LAYER>
+		<LAYER name="INSPECTOR_POLYGON" maxscale="1:50000" identify="true" quickcapture="true" quickcapturelabel="Capture INSPECTOR_POLYGON" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007.axf|5|INSPECTOR_POLYGON"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="LAYERTYPE" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<FIELDHISTORY>
+				<FIELDS>
+					<FIELD name="EFA_FLAG" value="False"/>
+					<FIELD name="ACTIONTYPE" value="0"/>
+					<FIELD name="CAMERA_REF"/>
+					<FIELD name="SMR_GAEC"/>
+					<FIELD name="XCBREACH_DT"/>
+					<FIELD name="LCUSED" value="False"/>
+					<FIELD name="USETYPE" value="IW03"/>
+					<FIELD name="GNSSUSED" value="True"/>
+					<FIELD name="COMMENT" value="Test lake"/>
+					<FIELD name="APUSED" value="False"/>
+					<FIELD name="MMUSED" value="False"/>
+					<FIELD name="PHOTO"/>
+					<FIELD name="LAYERTYPE" value="1"/>
+					<FIELD name="RSUSED" value="False"/>
+					<FIELD name="DATE" value="2016-06-08 10:32:21"/>
+				</FIELDS>
+			</FIELDHISTORY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="UNCONFIRMED_BOUND" maxscale="1:50000" identify="true" quickcapture="true" quickcapturelabel="Capture UNCONFIRMED_BOUND" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_UNCONFIRMED_BOUND_UNCONFIRMED_BOUND.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PROVENANCE" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false" end="false"/>
+		</LAYER>
+		<LAYER name="REFERENCE_PARCEL" maxscale="1:50000" identify="true" quickcapture="true" quickcapturelabel="Capture REFERENCE_PARCEL" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_REFERENCE_PARCEL_REFERENCE_PARCEL.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PARCEL_REF" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="LINEAR_LANDSCAPE_FEATURES" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture LINEAR_LANDSCAPE_FEATURES" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_LINEAR_LANDSCAPE_FEATURES_LINEAR_LANDSCAPE_FEATURES.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PARCEL_REF" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="LAND_COVER" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture LAND_COVER" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_LAND_COVER_LAND_COVER.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PARCEL_REF" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="REF_RCL" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture REF_RCL" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_REF_RCL_REF_RCL.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="NAME" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="LFA" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture LFA" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_REF_LFA_LFA.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="REF_CODE" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="PROW" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture PROW" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_XCOM_PUBLIC_RIGHTS_OF_WAY_PROW.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="AUTHORITY" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false" end="false"/>
+		</LAYER>
+		<LAYER name="HISTORIC_NVZ" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture HISTORIC_NVZ" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_XCOM_HISTORIC_NVZ_HISTORIC_NVZ.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="NAME" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="XCOM_PHI" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture XCOM_PHI" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_XCOM_PHI_XCOM_PHI.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="MAIN_HABIT" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="NVZ" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture NVZ" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_XCOM_NVZ_NVZ.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="ID" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="SAC" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture SAC" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_XCOM_SAC_SAC.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="NAME" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="SCHED_MON" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture SCHED_MON" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_XCOM_SCHED_MONUMENT_SCHED_MON.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="NAME" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="SP_AREA" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture SP_AREA" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_XCOM_SPECIAL_PROTECTION_AREAS_SP_AREA.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="NAME" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="SSSI" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture SSSI" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_XCOM_SSSI_SSSI.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="NAME" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="ENGLAND_BOUNDARY" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture ENGLAND_BOUNDARY" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_ENGLAND_BOUNDARY_ENGLAND_BOUNDARY.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="OBJECTID" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="MMAP_TOPO_POINT" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture MMAP_TOPO_POINT" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_MMAP_TOPO_POINT_MMAP_TOPO_POINT.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="DESCTERM" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" vertalignment="bottom"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="MMAP_TOPO_LINE" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture MMAP_TOPO_LINE" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_MMAP_TOPO_LINE_MMAP_TOPO_LINE.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="DESCTERM" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false" end="false"/>
+		</LAYER>
+		<LAYER name="MMAP_TOPO_AREA" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture MMAP_TOPO_AREA" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_MMAP_TOPO_AREA_MMAP_TOPO_AREA.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="DESCTERM" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="SKETCHES_POINT" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture SKETCHES_POINT" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_SKETCHES_POINT_SKETCHES_POINT.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PARCEL_ID" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" vertalignment="bottom"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="SKETCHES_LINE" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture SKETCHES_LINE" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_SKETCHES_LINE_SKETCHES_LINE.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PARCEL_ID" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false" end="false"/>
+		</LAYER>
+		<LAYER name="SKETCHES_POLY" maxscale="1:10000" identify="true" quickcapture="true" quickcapturelabel="Capture SKETCHES_POLY" quickdraw="1">
+			<DATASET name="1102485640_ADMIN_20160412_24007_SKETCHES_POLY_SKETCHES_POLY.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PARCEL_ID" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<STATUSBAR visible="true"/>
+		<SCALEBAR visible="true"/>
+		<NORTHARROW visible="false"/>
+		<ROTATION/>
+		<MAPGRID quickdraw="0"/>
+		<TRACKLOG quickdraw="0"/>
+		<TOOLBARS>
+			<TOOLBAR name="Main" visible="true"/>
+			<TOOLBAR name="Browse" visible="true"/>
+			<TOOLBAR name="Draw" visible="true"/>
+			<TOOLBAR name="QuickCapture" visible="true"/>
+			<TOOLBAR name="Navigation" visible="true"/>
+		</TOOLBARS>
+		<REFPOINTS/>
+	</MAP>
+</ArcPad>
